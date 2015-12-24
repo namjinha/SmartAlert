@@ -25,6 +25,7 @@ public class MainActivity extends FragmentActivity implements DrawerListener,
 {
 	private DbHandler mDBHandler;
 	private NotiDataListAdapter mAdapter;
+	private View mMainDashboardView;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) 
@@ -69,11 +70,11 @@ public class MainActivity extends FragmentActivity implements DrawerListener,
 		ListView list = (ListView)findViewById(R.id.noti_list);
 		list.setAdapter(mAdapter);
 
+		mMainDashboardView = findViewById(R.id.main_dashboard);
 		View more_btn = findViewById(R.id.more_btn);
 		more_btn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-
 			}
 		});
 	}
