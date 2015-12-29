@@ -4,13 +4,12 @@
     android:layout_height="wrap_content"
     android:minHeight="48dp"
     android:layout_margin="10dp"
-    android:background="@color/bg2"
     android:orientation="horizontal">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:src="@drawable/timeline_like"/>
+        android:background="@drawable/timeline_like"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,7 +22,7 @@
             android:orientation="horizontal">
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_gravity="center_vertical"
                 android:layout_marginRight="5dp"
                 android:src="@drawable/icon_like_disable"/>

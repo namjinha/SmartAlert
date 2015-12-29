@@ -66,6 +66,16 @@ public class DbHandler
 		cursor.close();
 		return count;
 	}
+
+	public Cursor selectDBData(int aSelectType, String aParam)
+	{
+		String[] selectionArgs = {aParam+""};
+		switch (aSelectType) {
+			case DBValue.TYPE_SELECT_PACKAGE_INFO:
+				return mDbManager.query(DBValue.SQL_SELECT_PACKAGE_INFO, selectionArgs);
+		}
+		return null;
+	}
 	
 	public int insertDB(int aInsertType, Object aObject)
 	{

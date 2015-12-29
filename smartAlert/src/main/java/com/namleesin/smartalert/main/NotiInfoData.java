@@ -1,13 +1,15 @@
 package com.namleesin.smartalert.main;
 
 
-public class NotiInfoData 
+import java.util.ArrayList;
+
+public class NotiInfoData
 {
 	public String pkgName;
 	public String appName;
 	public int likeCnt;
 	public int totalCnt;
-	public String content;
+	public ArrayList<String> content;
 	
 	public String getPkgName() {
 		return pkgName;
@@ -22,11 +24,11 @@ public class NotiInfoData
 		return appName;
 	}
 
-	public String getContent() {
+	public ArrayList<String> getContent() {
 		return content;
 	}
 
-	public NotiInfoData setContent(String content) {
+	public NotiInfoData setContent(ArrayList<String> content) {
 		this.content = content;
 		return this;
 	}
