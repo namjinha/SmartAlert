@@ -35,7 +35,16 @@ public class NotiDataLoader extends android.support.v4.content.AsyncTaskLoader<A
 		mPkgMgr = context.getPackageManager();
 		mDbHandler = new DbHandler(context);
 	}
-	
+
+	private ArrayList<NotiInfoData> getNotiData(String pkgName)
+	{
+		ArrayList<NotiInfoData> data = new ArrayList<>();
+
+
+
+		return data;
+	}
+
 	@Override
 	public ArrayList<NotiInfoData> loadInBackground() 
 	{
@@ -47,7 +56,6 @@ public class NotiDataLoader extends android.support.v4.content.AsyncTaskLoader<A
 			int like = mDbHandler.selectCountDB(DBValue.TYPE_SELECT_LIKE_PACKAGE_COUNT, info.packageName);
 
 			if(total>0) {
-				Log.d("NJ LEE", "pkgname : "+info.packageName+" total : "+total);
 				NotiInfoData data = new NotiInfoData()
 						.setPkgName(info.packageName)
 						.setAppName((String) info.loadLabel(mPkgMgr))
@@ -63,7 +71,6 @@ public class NotiDataLoader extends android.support.v4.content.AsyncTaskLoader<A
 	}
 
 	@Override protected void onStartLoading() {
-		Log.d("NJ LEE", "onStartLoading");
 		if (noti_data_list != null) {
 			// If we currently have a result available, deliver it
 			// immediately.

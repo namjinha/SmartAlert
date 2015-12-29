@@ -18,6 +18,7 @@ public class DBValue
 	public static final int TYPE_SELECT_DISLIKE_PACKAGE_COUNT	= 16;
 	public static final int TYPE_SELECT_LIKE_PACKAGE_COUNT		= 17;
 	public static final int TYPE_SELECT_PACKAGE_INFO_COUNT		= 18;
+	public static final int TYPE_SELECT_PACKAGE_INFO			= 20;
 		
 	public static final String SQL_INSRT_NOTIDATA				= "INSERT INTO noti_info_table (noti_package, noti_titletxt, noti_subtxt, noti_id, noti_key, noti_time, noti_like_status, noti_dislike_status, noti_url_status) " +
 																	"VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
@@ -33,5 +34,7 @@ public class DBValue
 	public static final String SQL_SELECT_DISLIKE_PACKAGE_COUNT = "SELECT count(*) FROM noti_info_table WHERE noti_package=? and noti_dislike_status=1";
 	public static final String SQL_SELECT_PACKAGE_INFO_COUNT	= "SELECT count(*) FROM noti_info_table WHERE noti_package=?";
 	public static final String SQL_SELECT_LIKE_PACKGAE_COUNT	= "SELECT count(*) FROM noti_info_table WHERE noti_package=? and noti_like_status = 1";
+	public static final String SQL_SELECT_PACKAGE_INFO			= "SELECT * FROM noti_info_table WHERE noti_package=?";
+
 }
 	
