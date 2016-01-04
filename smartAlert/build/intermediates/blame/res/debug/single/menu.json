@@ -1,6 +1,22 @@
 [
     {
-        "merged": "/Users/chitacan/Project/Git/SmartAlert-1/smartAlert/build/intermediates/res/merged/debug/menu/main.xml",
-        "source": "/Users/chitacan/Project/Git/SmartAlert-1/smartAlert/src/main/res/menu/main.xml"
+        "merged": "C:\\Users\\namjinha\\Documents\\GitHub\\SmartAlert\\SmartAlert\\build\\intermediates\\res\\merged\\debug\\menu\\menu_like_noti_setting.xml",
+        "source": "C:\\Users\\namjinha\\Documents\\GitHub\\SmartAlert\\SmartAlert\\src\\main\\res\\menu\\menu_like_noti_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\namjinha\\Documents\\GitHub\\SmartAlert\\SmartAlert\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\namjinha\\Documents\\GitHub\\SmartAlert\\SmartAlert\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\namjinha\\Documents\\GitHub\\SmartAlert\\SmartAlert\\build\\intermediates\\res\\merged\\debug\\menu\\menu_guide_mgr_activiy.xml",
+        "source": "C:\\Users\\namjinha\\Documents\\GitHub\\SmartAlert\\SmartAlert\\src\\main\\res\\menu\\menu_guide_mgr_activiy.xml"
+    },
+    {
+        "merged": "C:\\Users\\namjinha\\Documents\\GitHub\\SmartAlert\\SmartAlert\\build\\intermediates\\res\\merged\\debug\\menu\\menu_spam_noti_setting.xml",
+        "source": "C:\\Users\\namjinha\\Documents\\GitHub\\SmartAlert\\SmartAlert\\src\\main\\res\\menu\\menu_spam_noti_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\namjinha\\Documents\\GitHub\\SmartAlert\\SmartAlert\\build\\intermediates\\res\\merged\\debug\\menu\\menu_spam_setting.xml",
+        "source": "C:\\Users\\namjinha\\Documents\\GitHub\\SmartAlert\\SmartAlert\\src\\main\\res\\menu\\menu_spam_setting.xml"
     }
 ]

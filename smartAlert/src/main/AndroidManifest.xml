@@ -36,8 +36,15 @@
             android:name=".graph.SAGraphActivity"
             android:screenOrientation="portrait" />
 
+<<<<<<< HEAD
         <service
             android:name=".notimgr.NotificationListener"
+=======
+        <activity android:name="com.namleesin.smartalert.timeline.TimeLineActivity"
+            android:screenOrientation="portrait"/>
+
+        <service android:name="com.namleesin.smartalert.notimgr.NotificationListener"
+>>>>>>> f4c40a05396aaf3943790c6c6b130a16f5b0d86c
             android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
             <intent-filter>
                 <action android:name="android.service.notification.NotificationListenerService" />

@@ -3,15 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical" >
-    
-    <TextView
-    	android:layout_width="match_parent"
-    	android:layout_height="match_parent"
-    	android:gravity="center"
-    	android:text="똑똑한 알림 시작화면"
-    	android:textSize="30dp"
-    	android:textStyle="bold"
-        />
+    android:orientation="vertical"
+    android:background="@drawable/splash_bg">
 
 </LinearLayout>
