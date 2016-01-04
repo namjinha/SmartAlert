@@ -113,7 +113,7 @@ public class MainActivity extends FragmentActivity implements DrawerListener,
 		switch(requestCode)
 		{
 			case MainValue.RES_SPLASH_SCREEN:
-				OpenActivity.startGuideDes01Activity(this);
+				OpenActivity.startGuideMgrActivity(this);
 				break;
 			case MainValue.RES_GUIDE_WIZARD:
 				OpenActivity.startAlertSettingActivity(this);
